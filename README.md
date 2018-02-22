@@ -1,2 +1,1 @@
-# Another lightbox
-A pure CSS lightbox. Oh yiss.
+Another lightbox is not just another lightbox. It's pure CSS. Oh boyy.
