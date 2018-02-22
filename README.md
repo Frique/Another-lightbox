@@ -21,6 +21,7 @@ Another lightbox uses the checkbox hack (with radio buttons) and some flexbox an
 * Transition
 
 ## Todo
+* Sample
 * Accessibility
 * Browser testing
 * Loading state
