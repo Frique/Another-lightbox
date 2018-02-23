@@ -14,16 +14,18 @@ Another lightbox uses the checkbox hack (with radio buttons) and some flexbox an
 * Close the lightbox with keyboard escape key (JS)</li>
 
 ## Browser support
-* All IE: Larger images will vertically leave the screen because of lack of "object-fit: contain;" support. Couldn't find another way.
-* Flexbox
-* Position: fixed;
-* Transform
-* Transition
+* Object-fit: In all of IE, larger images will vertically fall off screen because of lack of "object-fit: contain;" support. Couldn't think of another way.
+* Flexbox: IE11+
+* Transition: IE10+
+* Transform: IE9+
+* Position fixed: IE7+
 
 ## Todo
 * Sample
 * Accessibility
 * Browser testing
+* RTL support
 * Loading state
 * Sass + variables
 * Lazy loading
+* More graceful flexbox fallback for <IE11
