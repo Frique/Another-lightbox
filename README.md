@@ -22,6 +22,8 @@ Another lightbox uses the checkbox hack (with radio buttons) and some flexbox an
 
 ## Todo
 * Sample
+* Figure/figcaption tags
+* alt attribute
 * Accessibility
 * Browser testing
 * RTL support
