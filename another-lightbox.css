@@ -103,6 +103,8 @@
 
 .lightbox-media {
 	display: flex; /* To keep its children max 100% height */
+	position: relative; /* For z-index */
+	z-index: 1; /* Above background-close */
 }
 .lightbox-image {
 	vertical-align: top;
@@ -113,6 +115,8 @@
 /* Caption */
 
 .lightbox-caption {
+	position: relative; /* For z-index */
+	z-index: 1; /* Above background-close */
 	color: white;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
